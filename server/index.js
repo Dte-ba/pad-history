@@ -7,8 +7,6 @@
 var osenv = require('osenv');
 var path = require('path');
 var fs = require('fs');
-var util = require('util');
-var moment = require('moment');
 
 var ProgressBar = require('progress');
 
@@ -51,6 +49,6 @@ pad
 if (pad.app.get('env') === "production") {
   process.on('uncaughtException', function(err) {
     console.log('Caught exception: ');
-    console.log(util.inspect(err))
+    console.dir(err)
   });
 }
