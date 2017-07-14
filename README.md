@@ -1,4 +1,6 @@
-# PAD v6
+# PAD History
+
+Versiones del PAD <= v6.1.x
 
 Entorno digital para la Plataforma de alfabetización digital utilizando [EPM](https://github.com/Dte-ba/epm) como kernel.
 
